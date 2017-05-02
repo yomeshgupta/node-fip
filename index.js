@@ -2,7 +2,7 @@ module.exports = function (config) {
     return function (req, res, next) {
         var mode = config.mode || 'whitelist',
             proxy = config.proxy || false,
-            ips = config.whiteIps || [],
+            ips = config.ips || [],
             message = config.message || 'Unauthorized Access',
             userIP = false;
 
