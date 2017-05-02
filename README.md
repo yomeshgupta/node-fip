@@ -1,7 +1,7 @@
 # node-fip
+=================================================================================
 
 This package provides an easy IP based access control. It is a simple middleware to either blacklist or whitelist IPs.
-=================================================================================
 
 ## Version
 1.0.1
@@ -44,7 +44,7 @@ var express = require('express')
     , app = express.createServer()
     ;
 
-// Blacklist the following IPs
+// Whitelist the following IPs
 app.use(nodeFip({
     mode: 'whitelist',
     proxy: false,
