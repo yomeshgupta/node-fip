@@ -1,9 +1,8 @@
 module.exports = function (config) {
-    return function(req, res, next) {
+    return function (req, res, next) {
         var mode = config.mode || 'whitelist',
             proxy = config.proxy || false,
-            whiteIps = config.whiteIps || [],
-            blackIps = config.blackIps || [],
+            ips = config.whiteIps || [],
             message = config.message || 'Unauthorized Access',
             userIP = false;
 
@@ -26,14 +25,14 @@ module.exports = function (config) {
         }
 
         function whitelistProcessing() {
-            if (whiteIps.length > 0 && whiteIps.indexOf(userIP) != -1) {
+            if (ips.length > 0 && ips.indexOf(userIP) != -1) {
                 return true;
             }
             return false;
         }
 
         function blacklistProcessing() {
-            if (blackIps.length === 0 || blackIps.indexOf(userIP) === -1) {
+            if (ips.length === 0 || ips.indexOf(userIP) === -1) {
                 return true;
             }
             return false;
