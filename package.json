@@ -1,0 +1,28 @@
+{
+  "name": "node-fip",
+  "version": "1.0.0",
+  "description": "A simple express middleware to either whitelist or blacklist IPs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yomeshgupta/node-fip.git"
+  },
+  "keywords": [
+    "ipfilter",
+    "express",
+    "ip-whitelist",
+    "ip-blacklist",
+    "koa",
+    "middleware",
+    "block-ip"
+  ],
+  "author": "Yomesh Gupta <'yomesh.gupta@gmail.com'>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yomeshgupta/node-fip/issues"
+  },
+  "homepage": "https://github.com/yomeshgupta/node-fip#readme"
+}
