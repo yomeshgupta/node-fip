@@ -16,7 +16,7 @@ Recommended installation is with npm. To add node-fip to your project, do:
 
 ## Usage with Express
 
-Blacklst certain IP addresses, while allowing all other IPs:
+Blacklist certain IP addresses, while allowing all other IPs:
 
 ```javascript
 // Init dependencies
@@ -55,7 +55,7 @@ app.listen(3000);
 ## Options
 
 | Option | Description | Default |
-| :---         |     :---:      |          ---: |
+| :--- | :--- | :--- |
 | mode | To allow or deny ips. Valid values : `whitelist` or `blacklist` | `whitelist` |
 | proxy | Set this to true if your node app behind Ngnix or Apache or likes | `false` |
 | ips | An array of allowed or denied IPs | `[]` |
