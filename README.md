@@ -57,7 +57,7 @@ app.listen(3000);
 | Option | Description | Default |
 | :--- | :--- | :--- |
 | mode | To allow or deny ips. Valid values : `whitelist` or `blacklist` | `whitelist` |
-| proxy | Set this to true if your node app behind Ngnix or Apache or likes | `false` |
+| proxy | Set this to true if your node app is behind Ngnix or Apache or likes | `false` |
 | ips | An array of allowed or denied IPs | `[]` |
 | message | Message sent as response | `Unauthorized Access` |
 
