@@ -1,6 +1,6 @@
 {
   "name": "node-fip",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple express middleware to either whitelist or blacklist IPs.",
   "main": "index.js",
   "scripts": {

@@ -3,7 +3,7 @@
 This package provides an easy IP based access control. It is a simple middleware to either blacklist or whitelist IPs.
 
 ## Version
-1.0.2
+1.0.3
 
 ## Requirements
 - [Node](http://github.com/ry/node)
