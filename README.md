@@ -1,5 +1,4 @@
 # node-fip
-=================================================================================
 
 This package provides an easy IP based access control. It is a simple middleware to either blacklist or whitelist IPs.
 
